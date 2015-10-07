@@ -42,6 +42,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadGeoIPDatabaseJob", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetentionLimitsJob", "Source\Jobs\RetentionLimit\RetentionLimitsJob.csproj", "{1A8C938F-D7F4-4E2F-8789-9053156E9077}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReproduceQueryOverheadJob", "Source\Jobs\ReproduceQueryOverhead\ReproduceQueryOverheadJob.csproj", "{46FF1E3F-4D19-4DF7-A89D-AA5C7F415CBC}"
+EndProject
 Global
 	GlobalSection(Performance) = preSolution
 		HasPerformanceSessions = true
@@ -203,6 +205,18 @@ Global
 		{1A8C938F-D7F4-4E2F-8789-9053156E9077}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{1A8C938F-D7F4-4E2F-8789-9053156E9077}.Release|x86.ActiveCfg = Release|Any CPU
 		{1A8C938F-D7F4-4E2F-8789-9053156E9077}.Release|x86.Build.0 = Release|Any CPU
+		{46FF1E3F-4D19-4DF7-A89D-AA5C7F415CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46FF1E3F-4D19-4DF7-A89D-AA5C7F415CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46FF1E3F-4D19-4DF7-A89D-AA5C7F415CBC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{46FF1E3F-4D19-4DF7-A89D-AA5C7F415CBC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{46FF1E3F-4D19-4DF7-A89D-AA5C7F415CBC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{46FF1E3F-4D19-4DF7-A89D-AA5C7F415CBC}.Debug|x86.Build.0 = Debug|Any CPU
+		{46FF1E3F-4D19-4DF7-A89D-AA5C7F415CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46FF1E3F-4D19-4DF7-A89D-AA5C7F415CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46FF1E3F-4D19-4DF7-A89D-AA5C7F415CBC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{46FF1E3F-4D19-4DF7-A89D-AA5C7F415CBC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{46FF1E3F-4D19-4DF7-A89D-AA5C7F415CBC}.Release|x86.ActiveCfg = Release|Any CPU
+		{46FF1E3F-4D19-4DF7-A89D-AA5C7F415CBC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -217,5 +231,6 @@ Global
 		{B0B479F6-A4B1-401A-A93D-7393877A4400} = {4F070E46-F0D4-4134-A04E-BD1CB3B4AEA3}
 		{BE383D44-18A2-4145-9D04-95F715D5E500} = {4F070E46-F0D4-4134-A04E-BD1CB3B4AEA3}
 		{1A8C938F-D7F4-4E2F-8789-9053156E9077} = {4F070E46-F0D4-4134-A04E-BD1CB3B4AEA3}
+		{46FF1E3F-4D19-4DF7-A89D-AA5C7F415CBC} = {4F070E46-F0D4-4134-A04E-BD1CB3B4AEA3}
 	EndGlobalSection
 EndGlobal
